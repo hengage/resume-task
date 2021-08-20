@@ -2,6 +2,8 @@ from pathlib import Path
 import sys
 import os
 from decouple import config
+import django_heroku
+
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(BASE_DIR,'apps'))
@@ -139,3 +141,5 @@ EMAIL_HOST_USER = config('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 EMAIL_PORT = config('EMAIL_PORT')
 EMAIL_USE_TLS = True
+
+django_heroku.settings(locals())

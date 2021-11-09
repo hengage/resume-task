@@ -3,7 +3,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.contrib import messages
 from django.shortcuts import render, redirect
 
-from apps.resume.forms import ContactForm
+from .forms import ContactForm
 
 
 def home(request):

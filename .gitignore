@@ -160,3 +160,4 @@ loandisk.py
 logs
 logs.text
 .vscode
+node_modules/

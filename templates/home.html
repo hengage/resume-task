@@ -147,8 +147,13 @@
 
 	</section> <!-- /process-->
 
-	<section id="experience">
+	<section id="experience" style="border: 3px solid green">
 		{% include "experience.html" %}
+	</section>
+
+
+	<section id="projects" class="bg-white" style="border: 3px solid blue;">
+		{% include "projects.html" %}
 	</section>
 
 	<!-- footer
@@ -174,6 +179,9 @@
 	<script src="{% static 'js/plugins.js' %}"></script>
 	<script src="{% static 'js/main.js' %}"></script>
 	<script>swal('hello')</script>
+	
+	<!-- Flowbite -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
 
 </body>
 

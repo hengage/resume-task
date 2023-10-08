@@ -56,7 +56,7 @@
 						<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
 						<li><a class="smoothscroll" href="#about" title="">About</a></li>
 						<li><a class="smoothscroll" href="#experience" title="">Experience</a></li>
-						<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
+						<li><a class="smoothscroll" href="#projects" title="">Projects</a></li>
 						<!-- <li><a href="styles.html" title="">Style Demo</a></li> -->
 					</ul>
 				</nav>
@@ -103,9 +103,9 @@
 
 	<!-- about section
    ================================================== -->
-	<section id="about">
+	<section id="about" class="pb-[7rem] pt-[10rem] bg-[#FFFFFF]" styl="border: 6px dotted yellow">
 
-		<div class="row section-intro">
+		<div class="row section-intro" styl="border: 2px dotted red">
 			<div class="col-twelve">
 
 				<h5>About</h5>
@@ -125,7 +125,7 @@
 			</div>
 		</div> <!-- /section-intro -->
 
-		<div class="row about-content">
+		<div class="row about-content mt-[6rem]" styl="border: 2px dotted black">
 			<div class="col-six tab-full space-y-3">
 
 				<h3 class="text-center">Tech Skills</h3>
@@ -143,16 +143,16 @@
 				</ul>
 			</div>
 		</div>
-
-
 	</section> <!-- /process-->
 
-	<section id="experience" style="border: 3px solid green">
+	<section id="experience" class="bg-white pb-[5rem]" 
+	styl="border: 3px solid green">
 		{% include "experience.html" %}
 	</section>
 
 
-	<section id="projects" class="bg-white" style="border: 3px solid blue;">
+	<section id="projects" class="bg-[#111111]" 
+	styl="border: 3px solid blue;">
 		{% include "projects.html" %}
 	</section>
 

@@ -145,21 +145,20 @@
 		</div>
 	</section> <!-- /process-->
 
-	<section id="experience" class="bg-white pb-[5rem]" 
-	styl="border: 3px solid green">
+	<section id="experience" class="bg-white pb-[5rem]" styl="border: 3px solid green">
 		{% include "experience.html" %}
 	</section>
 
 
-	<section id="projects" class="bg-[#111111]" 
-	styl="border: 3px solid blue;">
+	<section id="projects" class="bg-[#111111]" styl="border: 3px solid blue;">
 		{% include "projects.html" %}
 	</section>
 
 	<!-- footer
    ================================================== -->
 
-	<footer>
+	<footer class="bg-[#111111]">
+
 		<div class="row">
 
 			<div id="go-top">
@@ -167,6 +166,27 @@
 			</div>
 
 		</div> <!-- /row -->
+
+		<div class="w-full mx-auto mt-[12rem]" styl="border: 2px solid white;">
+			<!-- <h3 class="text-center text-[4rem] mt-7">Contact me</h3> -->
+			<ul class="introsocial flex justify-center gap-[4rem] w-[full]">
+				<li>
+					<a href="https://www.linkedin.com/in/henrychizoba/" target="_blank"><i
+							class="text-[3.8rem] fa fa-linkedin"></i>
+					</a>
+				</li>
+
+				<li>
+					<a href="mailto:henrychizobaudeh@gmail.com" target="_blank"><i
+							class="text-[3.8rem] fa fa-envelope"></i>
+					</a>
+				</li>
+				<li>
+					<a href="tel:+2347045538512" target="_blank"><i class="text-[3.8rem] fa fa-phone"></i>
+					</a>
+				</li>
+			</ul> <!-- /intro-social -->
+		</div>
 	</footer>
 
 	<div id="preloader">
@@ -179,7 +199,7 @@
 	<script src="{% static 'js/plugins.js' %}"></script>
 	<script src="{% static 'js/main.js' %}"></script>
 	<script>swal('hello')</script>
-	
+
 	<!-- Flowbite -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
 

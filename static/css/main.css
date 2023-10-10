@@ -1489,11 +1489,10 @@ header .logo a {
  *
  * -------------------------------------------------------------------
  */
-#about {
+/* #about {
 	background: #FFFFFF;
 	padding-top: 12rem;
-	padding-bottom: 15rem;
-}
+} */
 #about .section-intro {
 	margin-bottom: 3rem;
 }
@@ -1517,7 +1516,7 @@ header .logo a {
 
 .about-content {
 	position: relative;
-	text-align: left;
+	/* text-align: left; */
 	max-width: 850px;
 	margin-bottom: 3.6rem;
 }

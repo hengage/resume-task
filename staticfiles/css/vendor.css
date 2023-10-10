@@ -67,9 +67,7 @@
 }
 
 /* mouse grab icon */
-.grabbing {
-	cursor: url(grabbing.png) 8 8, move;
-}
+
 
 /* fix */
 .owl-carousel .owl-wrapper, .owl-carousel .owl-item {
@@ -776,5 +774,3 @@ img.mfp-img {
 	right: 0;
 	padding-top: 0;
 }
-
-/*# sourceMappingURL=vendor.css.map */
